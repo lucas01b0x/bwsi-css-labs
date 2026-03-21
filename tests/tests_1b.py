@@ -20,6 +20,7 @@ def test_subtraction():
 def test_multiplication():
     assert simple_calculator("multiply", 5, 3) == 15    # Test for positive numbers
     assert simple_calculator("multiply", -2, 2) == -4   # Test for negative and positive number
+    assert simple_calculator("multiply", -2, -2) == 4;  # Test for negative numbers
     assert simple_calculator("multiply", 0, 100) == 0   # Test for multiplication by zero
 
 def test_division():
