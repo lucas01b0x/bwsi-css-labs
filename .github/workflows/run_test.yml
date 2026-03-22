@@ -1,4 +1,4 @@
-name: simple_calculator unit test
+name: unit tests
   
 on: [push]  
   
