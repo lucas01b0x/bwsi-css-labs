@@ -33,8 +33,6 @@ def max_subarray_sum(nums: list[int]) -> int:
 # Example usage:
 def main():
     nums = [-2,1,-3,4,-1,2,1,-5,4] # should be 6
-    # nums = [5,4,-1,7,8] # should be 23
-    # nums = [1] # should be 1
     result = max_subarray_sum(nums)
     print(f"Maximum subarray sum: {result}")
 
