@@ -10,7 +10,7 @@ This is to simulate a change made on a robot: robot_speed = 8 # m/s
 def main():
     print("Hello World!")
 
-    name = "Lucas O"
+    name = "Lucas O" 
 
     print(f"{name}, Welcome to the CSS course!")
 
